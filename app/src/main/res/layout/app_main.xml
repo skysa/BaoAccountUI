@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app_main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundOrange"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/app_toolbar"/>
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/contentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <com.roughike.bottombar.BottomBar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/bottom_bar"
+        app:bb_behavior="shifting"
+        app:bb_tabXmlResource="@xml/bottom_bar_menu"/>
+    
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_home"
+        title="@string/home"
+        icon="@mipmap/ic_action_home"
+        barColorWhenSelected="#e26d6d"
+        />
+    <tab
+        id="@+id/tab_account"
+        title="账单"
+        icon="@mipmap/ic_action_account"
+        barColorWhenSelected="#e26d6d"
+        />
+    <tab
+        id="@+id/tab_calculator"
+        title="@string/calculator"
+        icon="@mipmap/ic_action_calculator"
+        barColorWhenSelected="#e26d6d"
+        />
+    <tab
+        id="@+id/tab_mine"
+        title="@string/mine"
+        icon="@mipmap/ic_action_mine"
+        barColorWhenSelected="#e26d6d"
+        />
+</tabs>
